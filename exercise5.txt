@@ -1,0 +1,16 @@
+>>> "David"
+'David'
+>>> my_name = "David"
+>>> my_name[3]
+>>> my_name = "David"
+>>> my_name*2
+'DavidDavid'
+>>> len(my_name)
+5
+>>> my_name.upper()
+'DAVID'
+>>> my_name.center(10)
+'  David   '
+>>> my_name.split('v')
+['Da', 'id']
+

@@ -1,0 +1,16 @@
+A major difference between lists and strings is that lists can be modified while strings cannot.
+This is referred to as mutability. Lists are mutable; strings are immutable.
+
+>>> my_list
+[1, 3, True, 6.5]
+>>> my_list[0]=2**10
+>>> my_list
+[1024, 3, True, 6.5]
+>>> my_name
+'David'
+>>> my_name[0]='X'
+Traceback (most recent call last):
+File "<pyshell#84>", line 1, in <module>
+my_name[0]='X'
+TypeError: 'str' object does not support item assignment
+>>>
